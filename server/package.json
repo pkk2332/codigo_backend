@@ -1,0 +1,29 @@
+{
+	"name": "server",
+	"version": "0.0.1",
+	"description": "Awesome project developed with TypeORM.",
+	"devDependencies": {
+		"@types/node": "^8.10.66",
+		"nodemon": "^2.0.6",
+		"ts-node": "^3.3.0",
+		"typescript": "^3.3.3333"
+	},
+	"dependencies": {
+		"body-parser": "^1.18.1",
+		"class-validator": "^0.12.2",
+		"cors": "^2.8.5",
+		"date-fns": "^2.16.1",
+		"dotenv": "^8.2.0",
+		"express": "^4.15.4",
+		"jsonwebtoken": "^8.5.1",
+		"mysql": "^2.18.1",
+		"qr-image": "^3.2.0",
+		"randomatic": "^3.1.1",
+		"reflect-metadata": "^0.1.10",
+		"typeorm": "0.2.29"
+	},
+	"scripts": {
+		"dev": "nodemon --config nodemon.json src/index.ts",
+		"start": "ts-node src/index.ts"
+	}
+}
