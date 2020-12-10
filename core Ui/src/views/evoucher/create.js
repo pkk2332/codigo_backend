@@ -4,8 +4,10 @@ import qs from 'qs';
 
 import Axios from 'axios';
 import Form from '../../components/form';
+import { Router, useHistory } from 'react-router-dom';
 
 const Users = () => {
+	const history = useHistory();
 	const initialValues = {
 		title: '',
 		description: '',
@@ -23,8 +25,9 @@ const Users = () => {
 				}
 			});
 			alert('Action Successful');
+			return history.push('/evoucher');
 		} catch (error) {
-			alert('Action Failed');
+			return alert('Action Failed');
 		}
 	};
 

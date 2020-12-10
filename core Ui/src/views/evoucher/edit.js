@@ -8,6 +8,7 @@ import { useHistory, useParams } from 'react-router-dom';
 
 const Users = () => {
 	const { id } = useParams();
+	const history = useHistory();
 	const [ initialValues, setinitialValues ] = useState(null);
 	useEffect(() => {
 		Axios.get('/evouchers/' + id).then(({ data }) => {
@@ -23,8 +24,10 @@ const Users = () => {
 				}
 			});
 			alert('Action Successful');
+
+			return history.push('/evoucher');
 		} catch (error) {
-			alert('Action Failed');
+			return alert('Action Failed');
 		}
 	};
 

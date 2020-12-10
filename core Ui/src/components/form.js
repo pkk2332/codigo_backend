@@ -15,7 +15,7 @@ const Schema = Yup.object({
 });
 
 const Form = ({ initialValues, submitCall, disableFileds = [] }) => {
-	const { handleBlur, handleChange, handleSubmit, values, touched, errors } = useFormik({
+	const { handleBlur, handleChange, handleSubmit, values, touched, errors, isSubmitting } = useFormik({
 		initialValues: initialValues,
 		validationSchema: Schema,
 		onSubmit: submitCall
@@ -105,6 +105,7 @@ const Form = ({ initialValues, submitCall, disableFileds = [] }) => {
 			/>
 			<div className="form-group">
 				<label htmlFor="exampleFormControlSelect1">Payment Discount Type</label>
+				{}
 				<select
 					onChange={handleChange}
 					disabled={disableFileds.includes('payment_discount_type')}
@@ -112,7 +113,7 @@ const Form = ({ initialValues, submitCall, disableFileds = [] }) => {
 					id="payment_discount_type"
 					className="form-control"
 				>
-					<option disabled value="" />
+					<option selected={values.payment_discount_type===''} disabled value="" />
 					{paymentType.map((payment) => {
 						if (payment === values.payment_discount_type) {
 							return (
@@ -130,7 +131,7 @@ const Form = ({ initialValues, submitCall, disableFileds = [] }) => {
 				</select>
 			</div>
 			<div className="d-flex">
-				<button type="submit" className="mt-5 ml-auto btn btn-primary">
+				<button type="submit" disabled={isSubmitting} className="mt-5 ml-auto btn btn-primary">
 					Submit
 				</button>
 			</div>
