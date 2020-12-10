@@ -1,0 +1,1392 @@
+{
+	"info": {
+		"_postman_id": "21c7d7a1-0379-4224-b974-2aeb59c07fb4",
+		"name": "Codigo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "cms list api",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjI0NzE1MTc0MzIsImRhdGEiOiJmb29iYXIiLCJpYXQiOjE2MDc1MTc0MzJ9.IsrP3lX63odycZi7ipGyU6eS4vXn2uMl-MZcQWgeaUs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/evouchers?",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"evouchers"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "cms list api",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/evouchers?",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"evouchers"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1663"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"67f-u/qsQqyleqCOonxt5Bm89GJyL6M\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Dec 2020 13:48:50 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    [\n        {\n            \"id\": 120,\n            \"title\": \"Testing 1\",\n            \"description\": \"asdasd\",\n            \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n            \"amount\": 2000,\n            \"payment_discount_type\": \"VISA\",\n            \"discount_percent\": 10,\n            \"maximun_limit\": 4,\n            \"quantity\": 4,\n            \"active\": false\n        },\n        {\n            \"id\": 121,\n            \"title\": \"Testing 1\",\n            \"description\": \"asdasd\",\n            \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n            \"amount\": 2000,\n            \"payment_discount_type\": \"VISA\",\n            \"discount_percent\": 10,\n            \"maximun_limit\": 4,\n            \"quantity\": 4,\n            \"active\": false\n        },\n        {\n            \"id\": 122,\n            \"title\": \"Testing 1\",\n            \"description\": \"asdasd\",\n            \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n            \"amount\": 2000,\n            \"payment_discount_type\": \"VISA\",\n            \"discount_percent\": 10,\n            \"maximun_limit\": 4,\n            \"quantity\": 4,\n            \"active\": true\n        },\n        {\n            \"id\": 123,\n            \"title\": \"Testing 1\",\n            \"description\": \"asdasd\",\n            \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n            \"amount\": 2000,\n            \"payment_discount_type\": \"VISA\",\n            \"discount_percent\": 10,\n            \"maximun_limit\": 4,\n            \"quantity\": 4,\n            \"active\": true\n        },\n        {\n            \"id\": 124,\n            \"title\": \"Testing 1\",\n            \"description\": \"asdasd\",\n            \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n            \"amount\": 2000,\n            \"payment_discount_type\": \"VISA\",\n            \"discount_percent\": 10,\n            \"maximun_limit\": 4,\n            \"quantity\": 4,\n            \"active\": true\n        },\n        {\n            \"id\": 125,\n            \"title\": \"Testing 1\",\n            \"description\": \"asdasd\",\n            \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n            \"amount\": 2000,\n            \"payment_discount_type\": \"VISA\",\n            \"discount_percent\": 10,\n            \"maximun_limit\": 4,\n            \"quantity\": 4,\n            \"active\": true\n        },\n        {\n            \"id\": 126,\n            \"title\": \"Testing 1\",\n            \"description\": \"asdasd\",\n            \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n            \"amount\": 2000,\n            \"payment_discount_type\": \"VISA\",\n            \"discount_percent\": 10,\n            \"maximun_limit\": 4,\n            \"quantity\": 4,\n            \"active\": true\n        },\n        {\n            \"id\": 127,\n            \"title\": \"Testing 1\",\n            \"description\": \"asdasd\",\n            \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n            \"amount\": 2000,\n            \"payment_discount_type\": \"VISA\",\n            \"discount_percent\": 10,\n            \"maximun_limit\": 4,\n            \"quantity\": 4,\n            \"active\": true\n        }\n    ],\n    8\n]"
+				}
+			]
+		},
+		{
+			"name": "cms voucher create api",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjI0NzE1MTc0MzIsImRhdGEiOiJmb29iYXIiLCJpYXQiOjE2MDc1MTc0MzJ9.IsrP3lX63odycZi7ipGyU6eS4vXn2uMl-MZcQWgeaUs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Testing 1",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "asdasd",
+							"type": "text"
+						},
+						{
+							"key": "expiry_date",
+							"value": "2019/09/23",
+							"type": "text"
+						},
+						{
+							"key": "amount",
+							"value": "2000",
+							"type": "text"
+						},
+						{
+							"key": "payment_discount_type",
+							"value": "VISA",
+							"type": "text"
+						},
+						{
+							"key": "discount_percent",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "quantity",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "maximun_limit",
+							"value": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/evouchers/",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"evouchers",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "cms voucher create api",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Testing 1",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "asdasd",
+									"type": "text"
+								},
+								{
+									"key": "expiry_date",
+									"value": "2018/09/23",
+									"type": "text"
+								},
+								{
+									"key": "amount",
+									"value": "2000",
+									"type": "text"
+								},
+								{
+									"key": "payment_discount_type",
+									"value": "VISA",
+									"type": "text"
+								},
+								{
+									"key": "discount_percent",
+									"value": "10",
+									"type": "text"
+								},
+								{
+									"key": "quantity",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "maximun_limit",
+									"value": "4",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/evouchers/",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"evouchers",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "215"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"d7-5qTzLwJbDLFPEZF8c5AgHt2FrSc\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Dec 2020 13:19:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"title\": \"Testing 1\",\n    \"description\": \"asdasd\",\n    \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n    \"amount\": \"2000\",\n    \"payment_discount_type\": \"VISA\",\n    \"discount_percent\": \"10\",\n    \"maximun_limit\": \"4\",\n    \"quantity\": \"4\",\n    \"id\": 127,\n    \"active\": false\n}"
+				}
+			]
+		},
+		{
+			"name": "cms voucher activate api",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjI0NzE1MTc0MzIsImRhdGEiOiJmb29iYXIiLCJpYXQiOjE2MDc1MTc0MzJ9.IsrP3lX63odycZi7ipGyU6eS4vXn2uMl-MZcQWgeaUs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/evouchers/active/138",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"evouchers",
+						"active",
+						"138"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "cms voucher activate api",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/evouchers/active/127",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"evouchers",
+								"active",
+								"127"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "206"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"ce-AJCuw+1uvAub9kDz2cYsSPnKvTU\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Dec 2020 13:20:00 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 127,\n    \"title\": \"Testing 1\",\n    \"description\": \"asdasd\",\n    \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n    \"amount\": 2000,\n    \"payment_discount_type\": \"VISA\",\n    \"discount_percent\": 10,\n    \"maximun_limit\": 4,\n    \"quantity\": 4,\n    \"active\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "cms voucher show api",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjI0NzE1MTc0MzIsImRhdGEiOiJmb29iYXIiLCJpYXQiOjE2MDc1MTc0MzJ9.IsrP3lX63odycZi7ipGyU6eS4vXn2uMl-MZcQWgeaUs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/evouchers/113",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"evouchers",
+						"113"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "cms voucher show api",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/evouchers/113",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"evouchers",
+								"113"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "206"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"ce-ta6kLuzw3W+lhySomyIE+LzjMMo\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Dec 2020 13:14:16 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 113,\n    \"title\": \"Testing 1\",\n    \"description\": \"asdasd\",\n    \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n    \"amount\": 2000,\n    \"payment_discount_type\": \"VISA\",\n    \"discount_percent\": 10,\n    \"maximun_limit\": 4,\n    \"quantity\": 4,\n    \"active\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "cms voucher edit api",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjI0NzE1MTc0MzIsImRhdGEiOiJmb29iYXIiLCJpYXQiOjE2MDc1MTc0MzJ9.IsrP3lX63odycZi7ipGyU6eS4vXn2uMl-MZcQWgeaUs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Testing 122 asdasd",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "asdasd",
+							"type": "text"
+						},
+						{
+							"key": "expiry_date",
+							"value": "2018/09/23",
+							"type": "text"
+						},
+						{
+							"key": "amount",
+							"value": "23",
+							"type": "text"
+						},
+						{
+							"key": "payment_discount_type",
+							"value": "VISA",
+							"type": "text"
+						},
+						{
+							"key": "discount_percent",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "quantity",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "maximun_limit",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/evouchers/113",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"evouchers",
+						"113"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "cms voucher edit api",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Testing 122 asdasd",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "asdasd",
+									"type": "text"
+								},
+								{
+									"key": "expiry_date",
+									"value": "2018/09/23",
+									"type": "text"
+								},
+								{
+									"key": "amount",
+									"value": "23",
+									"type": "text"
+								},
+								{
+									"key": "payment_discount_type",
+									"value": "VISA",
+									"type": "text"
+								},
+								{
+									"key": "discount_percent",
+									"value": "10",
+									"type": "text"
+								},
+								{
+									"key": "quantity",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "maximun_limit",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/evouchers/113",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"evouchers",
+								"113"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "208"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"d0-M0CxiSKB6AX3Ognaykx3Owe28Dg\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Dec 2020 13:14:42 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"generatedMaps\": [],\n    \"raw\": {\n        \"fieldCount\": 0,\n        \"affectedRows\": 1,\n        \"insertId\": 0,\n        \"serverStatus\": 2,\n        \"warningCount\": 0,\n        \"message\": \"(Rows matched: 1  Changed: 1  Warnings: 0\",\n        \"protocol41\": true,\n        \"changedRows\": 1\n    },\n    \"affected\": 1\n}"
+				}
+			]
+		},
+		{
+			"name": "Estore Code list",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDc2MDUwNzQsImRhdGEiOnsicGhvbmVfbm8iOiIxMjMxMjMiLCJuYW1lIjoicGtrIn0sImlhdCI6MTYwNzUxODY3NH0.0sEuZHzdDIdAgZfTWOKg8FaFjN0ifuMe1sx0dnK_aB0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/estore",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"estore"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Estore Code list",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/estore",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"estore"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "3161"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"c59-RNfDpxG9sUn/CRvsleFpD+DIxGs\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Dec 2020 13:51:06 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 2351,\n        \"promo_code\": \"IQmXH018558\",\n        \"qr_image\": \"IQmXH018558.png\",\n        \"used\": false,\n        \"sold_out\": false,\n        \"evoucher\": {\n            \"id\": 122,\n            \"title\": \"Testing 1\",\n            \"description\": \"asdasd\",\n            \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n            \"amount\": 2000,\n            \"payment_discount_type\": \"VISA\",\n            \"discount_percent\": 10,\n            \"maximun_limit\": 4,\n            \"quantity\": 4,\n            \"active\": true\n        }\n    },\n    {\n        \"id\": 2352,\n        \"promo_code\": \"OeRra108497\",\n        \"qr_image\": \"OeRra108497.png\",\n        \"used\": false,\n        \"sold_out\": false,\n        \"evoucher\": {\n            \"id\": 122,\n            \"title\": \"Testing 1\",\n            \"description\": \"asdasd\",\n            \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n            \"amount\": 2000,\n            \"payment_discount_type\": \"VISA\",\n            \"discount_percent\": 10,\n            \"maximun_limit\": 4,\n            \"quantity\": 4,\n            \"active\": true\n        }\n    },\n    {\n        \"id\": 2353,\n        \"promo_code\": \"BNmuh801159\",\n        \"qr_image\": \"BNmuh801159.png\",\n        \"used\": false,\n        \"sold_out\": false,\n        \"evoucher\": {\n            \"id\": 123,\n            \"title\": \"Testing 1\",\n            \"description\": \"asdasd\",\n            \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n            \"amount\": 2000,\n            \"payment_discount_type\": \"VISA\",\n            \"discount_percent\": 10,\n            \"maximun_limit\": 4,\n            \"quantity\": 4,\n            \"active\": true\n        }\n    },\n    {\n        \"id\": 2354,\n        \"promo_code\": \"yvtav420871\",\n        \"qr_image\": \"yvtav420871.png\",\n        \"used\": false,\n        \"sold_out\": false,\n        \"evoucher\": {\n            \"id\": 123,\n            \"title\": \"Testing 1\",\n            \"description\": \"asdasd\",\n            \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n            \"amount\": 2000,\n            \"payment_discount_type\": \"VISA\",\n            \"discount_percent\": 10,\n            \"maximun_limit\": 4,\n            \"quantity\": 4,\n            \"active\": true\n        }\n    },\n    {\n        \"id\": 2355,\n        \"promo_code\": \"DkoSI270878\",\n        \"qr_image\": \"DkoSI270878.png\",\n        \"used\": false,\n        \"sold_out\": false,\n        \"evoucher\": {\n            \"id\": 123,\n            \"title\": \"Testing 1\",\n            \"description\": \"asdasd\",\n            \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n            \"amount\": 2000,\n            \"payment_discount_type\": \"VISA\",\n            \"discount_percent\": 10,\n            \"maximun_limit\": 4,\n            \"quantity\": 4,\n            \"active\": true\n        }\n    },\n    {\n        \"id\": 2356,\n        \"promo_code\": \"Gpdaj912423\",\n        \"qr_image\": \"Gpdaj912423.png\",\n        \"used\": false,\n        \"sold_out\": false,\n        \"evoucher\": {\n            \"id\": 123,\n            \"title\": \"Testing 1\",\n            \"description\": \"asdasd\",\n            \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n            \"amount\": 2000,\n            \"payment_discount_type\": \"VISA\",\n            \"discount_percent\": 10,\n            \"maximun_limit\": 4,\n            \"quantity\": 4,\n            \"active\": true\n        }\n    },\n    {\n        \"id\": 2357,\n        \"promo_code\": \"mabrt049994\",\n        \"qr_image\": \"mabrt049994.png\",\n        \"used\": false,\n        \"sold_out\": false,\n        \"evoucher\": {\n            \"id\": 124,\n            \"title\": \"Testing 1\",\n            \"description\": \"asdasd\",\n            \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n            \"amount\": 2000,\n            \"payment_discount_type\": \"VISA\",\n            \"discount_percent\": 10,\n            \"maximun_limit\": 4,\n            \"quantity\": 4,\n            \"active\": true\n        }\n    },\n    {\n        \"id\": 2358,\n        \"promo_code\": \"WuVnl092995\",\n        \"qr_image\": \"WuVnl092995.png\",\n        \"used\": false,\n        \"sold_out\": false,\n        \"evoucher\": {\n            \"id\": 124,\n            \"title\": \"Testing 1\",\n            \"description\": \"asdasd\",\n            \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n            \"amount\": 2000,\n            \"payment_discount_type\": \"VISA\",\n            \"discount_percent\": 10,\n            \"maximun_limit\": 4,\n            \"quantity\": 4,\n            \"active\": true\n        }\n    },\n    {\n        \"id\": 2359,\n        \"promo_code\": \"zKHHx376455\",\n        \"qr_image\": \"zKHHx376455.png\",\n        \"used\": false,\n        \"sold_out\": false,\n        \"evoucher\": {\n            \"id\": 124,\n            \"title\": \"Testing 1\",\n            \"description\": \"asdasd\",\n            \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n            \"amount\": 2000,\n            \"payment_discount_type\": \"VISA\",\n            \"discount_percent\": 10,\n            \"maximun_limit\": 4,\n            \"quantity\": 4,\n            \"active\": true\n        }\n    },\n    {\n        \"id\": 2360,\n        \"promo_code\": \"NeYtj836389\",\n        \"qr_image\": \"NeYtj836389.png\",\n        \"used\": false,\n        \"sold_out\": false,\n        \"evoucher\": {\n            \"id\": 124,\n            \"title\": \"Testing 1\",\n            \"description\": \"asdasd\",\n            \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n            \"amount\": 2000,\n            \"payment_discount_type\": \"VISA\",\n            \"discount_percent\": 10,\n            \"maximun_limit\": 4,\n            \"quantity\": 4,\n            \"active\": true\n        }\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Estore Code Detail",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDc2MDUwNzQsImRhdGEiOnsicGhvbmVfbm8iOiIxMjMxMjMiLCJuYW1lIjoicGtrIn0sImlhdCI6MTYwNzUxODY3NH0.0sEuZHzdDIdAgZfTWOKg8FaFjN0ifuMe1sx0dnK_aB0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/estore/2281",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"estore",
+						"2281"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Estore Code Detail",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/estore/2351",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"estore",
+								"2351"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "315"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"13b-4PdOW+1xZWkHDb0NIzc/9WLAH+A\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Dec 2020 13:51:29 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 2351,\n    \"promo_code\": \"IQmXH018558\",\n    \"qr_image\": \"IQmXH018558.png\",\n    \"used\": false,\n    \"sold_out\": false,\n    \"evoucher\": {\n        \"id\": 122,\n        \"title\": \"Testing 1\",\n        \"description\": \"asdasd\",\n        \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n        \"amount\": 2000,\n        \"payment_discount_type\": \"VISA\",\n        \"discount_percent\": 10,\n        \"maximun_limit\": 4,\n        \"quantity\": 4,\n        \"active\": true\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "payment list",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDc2MDUwNzQsImRhdGEiOnsicGhvbmVfbm8iOiIxMjMxMjMiLCJuYW1lIjoicGtrIn0sImlhdCI6MTYwNzUxODY3NH0.0sEuZHzdDIdAgZfTWOKg8FaFjN0ifuMe1sx0dnK_aB0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/estore/payment/list",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"estore",
+						"payment",
+						"list"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "payment list",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/estore/payment/list",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"estore",
+								"payment",
+								"list"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "21"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"15-06pf0kkYjnEOFWmsqBY/Ty0XG0c\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Dec 2020 12:58:51 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    \"VISA\",\n    \"MasterCard\"\n]"
+				}
+			]
+		},
+		{
+			"name": "estore payment api",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDc2MDUwNzQsImRhdGEiOnsicGhvbmVfbm8iOiIxMjMxMjMiLCJuYW1lIjoicGtrIn0sImlhdCI6MTYwNzUxODY3NH0.0sEuZHzdDIdAgZfTWOKg8FaFjN0ifuMe1sx0dnK_aB0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "payment_type",
+							"value": "VISA",
+							"type": "text"
+						},
+						{
+							"key": "buy_type",
+							"value": "gift",
+							"type": "text"
+						},
+						{
+							"key": "to_user",
+							"value": "09420298439",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/estore/2284",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"estore",
+						"2284"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "estore payment api",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "payment_type",
+									"value": "VISA",
+									"type": "text"
+								},
+								{
+									"key": "buy_type",
+									"value": "me",
+									"type": "text"
+								},
+								{
+									"key": "to_user",
+									"value": "09420298439",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/estore/2350",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"estore",
+								"2350"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "576"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"240-JFa8onE6K/fKMJIdDnaL+4IWb9g\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Dec 2020 13:23:12 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"phone_no\": \"123123\",\n    \"amount\": 1800,\n    \"evoucher\": {\n        \"id\": 122,\n        \"title\": \"Testing 1\",\n        \"description\": \"asdasd\",\n        \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n        \"amount\": 2000,\n        \"payment_discount_type\": \"VISA\",\n        \"discount_percent\": 10,\n        \"maximun_limit\": 4,\n        \"quantity\": 4,\n        \"active\": true\n    },\n    \"code\": {\n        \"id\": 2350,\n        \"promo_code\": \"cFTsW047414\",\n        \"qr_image\": \"cFTsW047414.png\",\n        \"used\": false,\n        \"sold_out\": false,\n        \"evoucher\": {\n            \"id\": 122,\n            \"title\": \"Testing 1\",\n            \"description\": \"asdasd\",\n            \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n            \"amount\": 2000,\n            \"payment_discount_type\": \"VISA\",\n            \"discount_percent\": 10,\n            \"maximun_limit\": 4,\n            \"quantity\": 4,\n            \"active\": true\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "verify code api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "promo_code",
+							"value": "NEwHw414663",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/estore/verify/code",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"estore",
+						"verify",
+						"code"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "verify code api",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "promo_code",
+									"value": "cFTsW047414",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/estore/verify/code",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"estore",
+								"verify",
+								"code"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "42"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2a-y1D/7yeWnxvILYC6zRAvAxzfgfo\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Dec 2020 13:24:58 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"msg\": \"This code is valid\",\n    \"amount\": 2000\n}"
+				}
+			]
+		},
+		{
+			"name": "payment history",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/estore/purchase/history",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"estore",
+						"purchase",
+						"history"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "payment history",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/estore/purchase/history",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"estore",
+								"purchase",
+								"history"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1218"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4c2-CadUxRq0pddCiZJHeEJMWcBC7NI\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Dec 2020 13:26:24 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"ForMeCode\": [\n        {\n            \"id\": 6,\n            \"phone_no\": \"123123\",\n            \"amount\": 1800,\n            \"evoucher\": {\n                \"id\": 122,\n                \"title\": \"Testing 1\",\n                \"description\": \"asdasd\",\n                \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n                \"amount\": 2000,\n                \"payment_discount_type\": \"VISA\",\n                \"discount_percent\": 10,\n                \"maximun_limit\": 4,\n                \"quantity\": 4,\n                \"active\": true\n            },\n            \"code\": {\n                \"id\": 2350,\n                \"promo_code\": \"cFTsW047414\",\n                \"qr_image\": \"cFTsW047414.png\",\n                \"used\": false,\n                \"sold_out\": true,\n                \"evoucher\": {\n                    \"id\": 122,\n                    \"title\": \"Testing 1\",\n                    \"description\": \"asdasd\",\n                    \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n                    \"amount\": 2000,\n                    \"payment_discount_type\": \"VISA\",\n                    \"discount_percent\": 10,\n                    \"maximun_limit\": 4,\n                    \"quantity\": 4,\n                    \"active\": true\n                }\n            }\n        }\n    ],\n    \"giftCode\": [\n        {\n            \"id\": 4,\n            \"phone_no\": \"123123\",\n            \"to_user\": \"09420298439\",\n            \"amount\": 1800,\n            \"evoucher\": {\n                \"id\": 122,\n                \"title\": \"Testing 1\",\n                \"description\": \"asdasd\",\n                \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n                \"amount\": 2000,\n                \"payment_discount_type\": \"VISA\",\n                \"discount_percent\": 10,\n                \"maximun_limit\": 4,\n                \"quantity\": 4,\n                \"active\": true\n            },\n            \"code\": {\n                \"id\": 2349,\n                \"promo_code\": \"rVwyk760434\",\n                \"qr_image\": \"rVwyk760434.png\",\n                \"used\": false,\n                \"sold_out\": true,\n                \"evoucher\": {\n                    \"id\": 122,\n                    \"title\": \"Testing 1\",\n                    \"description\": \"asdasd\",\n                    \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n                    \"amount\": 2000,\n                    \"payment_discount_type\": \"VISA\",\n                    \"discount_percent\": 10,\n                    \"maximun_limit\": 4,\n                    \"quantity\": 4,\n                    \"active\": true\n                }\n            }\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "cms login api ",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/evouchers/auth/login",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"evouchers",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "cms login api ",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/evouchers/auth/login",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"evouchers",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "160"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a0-2400BT5Ov4zPQ158FLQPzIcxYyY\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Dec 2020 13:52:31 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjI0NzE1MjE5NTEsIm5hbWUiOiJhZG1pbiIsImlhdCI6MTYwNzUyMTk1MX0.v0rE5CXfpwKxr63Tuw4OH--M_Q6La_oG-ZTf34OvKBk\"\n}"
+				}
+			]
+		},
+		{
+			"name": "estore login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "phone_no",
+							"value": "123123",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "pkk",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/estore/auth/login",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"estore",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "estore login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "phone_no",
+									"value": "123123",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "pkk",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/estore/auth/login",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"estore",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "196"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"c4-LWeClC86iVgMabieSgBdWk/0QgY\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Dec 2020 13:52:52 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDc2MDgzNzIsImRhdGEiOnsicGhvbmVfbm8iOiIxMjMxMjMiLCJuYW1lIjoicGtrIn0sImlhdCI6MTYwNzUyMTk3Mn0.ywsgX6LPSVf8_dyJaSMUSpUKoHLnWTb2Kdi95cH0wHA\"\n}"
+				}
+			]
+		},
+		{
+			"name": "estore payment api (gift user)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDc2MDUwNzQsImRhdGEiOnsicGhvbmVfbm8iOiIxMjMxMjMiLCJuYW1lIjoicGtrIn0sImlhdCI6MTYwNzUxODY3NH0.0sEuZHzdDIdAgZfTWOKg8FaFjN0ifuMe1sx0dnK_aB0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "payment_type",
+							"value": "VISA",
+							"type": "text"
+						},
+						{
+							"key": "buy_type",
+							"value": "gift",
+							"type": "text"
+						},
+						{
+							"key": "to_user",
+							"value": "09420298439",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}/estore/2428",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"estore",
+						"2428"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "estore payment api",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "payment_type",
+									"value": "VISA",
+									"type": "text"
+								},
+								{
+									"key": "buy_type",
+									"value": "me",
+									"type": "text"
+								},
+								{
+									"key": "to_user",
+									"value": "09420298439",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/estore/2350",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"estore",
+								"2350"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "576"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"240-JFa8onE6K/fKMJIdDnaL+4IWb9g\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Dec 2020 13:23:12 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"phone_no\": \"123123\",\n    \"amount\": 1800,\n    \"evoucher\": {\n        \"id\": 122,\n        \"title\": \"Testing 1\",\n        \"description\": \"asdasd\",\n        \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n        \"amount\": 2000,\n        \"payment_discount_type\": \"VISA\",\n        \"discount_percent\": 10,\n        \"maximun_limit\": 4,\n        \"quantity\": 4,\n        \"active\": true\n    },\n    \"code\": {\n        \"id\": 2350,\n        \"promo_code\": \"cFTsW047414\",\n        \"qr_image\": \"cFTsW047414.png\",\n        \"used\": false,\n        \"sold_out\": false,\n        \"evoucher\": {\n            \"id\": 122,\n            \"title\": \"Testing 1\",\n            \"description\": \"asdasd\",\n            \"expiry_date\": \"2018-09-22T17:30:00.000Z\",\n            \"amount\": 2000,\n            \"payment_discount_type\": \"VISA\",\n            \"discount_percent\": 10,\n            \"maximun_limit\": 4,\n            \"quantity\": 4,\n            \"active\": true\n        }\n    }\n}"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}
